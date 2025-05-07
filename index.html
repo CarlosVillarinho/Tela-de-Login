@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONES AWESOME - BIBLI UNPKG -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login form</title>
+
+    <!-- LINK PARA A PASTA CSS e Stayles.css -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+
+    <!-- DIV QUE ARMAZENA TODA A TELA DE LOGIN -->
+    <div>
+        <main class="container">
+            <form> <!-- ENTRADA DE DADOS -->
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input placeholder="Usúario" type="email">
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input placeholder="Senha" type="password">
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+
+                <!-- DIV QUE ARMAZENA O RESTANTE DA TELA DE LOGIN -->
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        Lembrar senha
+                    </label>
+                    <a href="#">Esqueci a senha</a>
+                </div>
+                <button type="submit" class="login">Login</button>
+                <div class="register-link">
+                    <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
